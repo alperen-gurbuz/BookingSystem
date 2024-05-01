@@ -1,0 +1,76 @@
+COMMAND: 
+ERROR: There is no command namely 
+COMMAND: 	  		
+ERROR: There is no command namely 
+COMMAND: 	  	
+ERROR: There is no command namely 
+COMMAND: INIT_VOYAGE	Astral	10	Earth	Mars	5	800
+ERROR: Erroneous usage of "INIT_VOYAGE" command!
+COMMAND: COMMAND
+ERROR: There is no command namely COMMAND
+COMMAND: ERROR
+ERROR: There is no command namely ERROR
+COMMAND: Z_REPORT
+Z Report:
+----------------
+COMMAND: SELL_TICKET	10
+Erroneous usage of "SELL_TICKET" command!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+COMMAND: CANCEL_VOYAGE	10	10
+ERROR: Erroneous usage of "CANCEL_VOYAGE" command!
+COMMAND: Z_REPORT	Z_REPORT
+Z Report:
+----------------
+COMMAND: Z_REPORT
+Z Report:
+----------------
+COMMAND: ERRONEOUS	COMMAND
+ERROR: There is no command namely ERRONEOUS
+COMMAND: SELL_TICKET	10
+Erroneous usage of "SELL_TICKET" command!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+COMMAND: REFUND_TICKET	10
+ERROR: Erroneous usage of "REFUND_TICKET" command!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+COMMAND: PRINT_VOYAGE
+ERROR: Erroneous usage of "PRINT_VOYAGE" command
+COMMAND: Z_REPORT
+Z Report:
+----------------
+COMMAND: CANCEL_VOYAGE
+ERROR: Erroneous usage of "CANCEL_VOYAGE" command!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+COMMAND: INIT_VOYAGE	Standard	-8	Venus	Pluto	17	300	20
+Voyage -8 was initialized as a standard (2+2) voyage from Venus to Pluto with 300.00 TL priced 68 regular seats. Note that refunds will be 20% less than the paid amount.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage -8
+Venus-Pluto
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 0.00
+----------------
